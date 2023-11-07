@@ -1,0 +1,13 @@
+.table-cell {
+  margin: 25px;
+  width: 600px;
+  height: 600px;
+  border: 1px solid #ccc;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+.game-cell {
+  border: 1px solid #ccc;
+  cursor: pointer;
+}

@@ -1,8 +1,12 @@
 import "./App.css";
-import YoutubeList from "./components/youtube/YoutubeList";
+import Game from "./components/game/Game";
 
 function App() {
-  return <YoutubeList></YoutubeList>;
+  return (
+    <div>
+      <Game></Game>
+    </div>
+  );
 }
 
 export default App;
